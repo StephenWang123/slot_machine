@@ -124,8 +124,9 @@ int main()
 	{
 		if (choice == 1)
 			roll(firstSlot, secondSlot, thirdSlot, credits);
-		if (choice == 2)
+		else if (choice == 2)
 			printPrizes();
+		
 		menu(firstSlot, secondSlot, thirdSlot, credits);
 	}
 	while((choice = run()));
